@@ -1,0 +1,88 @@
+Dependencies for Project 'jcf2876_lab8', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\Main.c)(0x5FCE8360)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (Sensor.h)(0x5FC93FBF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (PEC16.h)(0x5FC54F17)
+I (EV3479.h)(0x5FC9210B)
+I (Menu.h)(0x5FC54DE5)
+I (Switch.h)(0x5FC54F17)
+I (ST7735.h)(0x5F4DB19B)
+I (VNC1L.h)(0x5FC54DE5)
+I (PLL.h)(0x5F4DB19A)
+I (FixedMath.h)(0x5FC943E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC83ADC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC83AE4)
+F (.\Sensor.h)(0x5FC93FBF)()
+F (.\PEC16.h)(0x5FC54F17)()
+F (.\VNC1L.h)(0x5FC54DE5)()
+F (.\Menu.h)(0x5FC54DE5)()
+F (.\EV3479.h)(0x5FC9210B)()
+F (.\PLL.c)(0x5F74DE90)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\pll.o --omf_browse .\objects\pll.crf --depend .\objects\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (PLL.h)(0x5F4DB19A)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+F (.\ST7735.c)(0x5F99CA29)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\st7735.o --omf_browse .\objects\st7735.crf --depend .\objects\st7735.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC83ADC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC83ADC)
+I (ST7735.h)(0x5F4DB19B)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+F (.\PLL.h)(0x5F4DB19A)()
+F (.\ST7735.h)(0x5F4DB19B)()
+F (.\tm4c123gh6pm.h)(0x5F4DB19C)()
+F (.\startup.s)(0x5F4DB183)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\Sensor.c)(0x5FC94A5E)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\sensor.o --omf_browse .\objects\sensor.crf --depend .\objects\sensor.d)
+I (Sensor.h)(0x5FC93FBF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (PEC16.h)(0x5FC54F17)
+I (EV3479.h)(0x5FC9210B)
+I (FixedMath.h)(0x5FC943E6)
+F (.\PEC16.c)(0x5FC54F17)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\pec16.o --omf_browse .\objects\pec16.crf --depend .\objects\pec16.d)
+I (PEC16.h)(0x5FC54F17)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+F (.\VNC1L.c)(0x5FC54DE5)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\vnc1l.o --omf_browse .\objects\vnc1l.crf --depend .\objects\vnc1l.d)
+I (VNC1l.h)(0x5FC54DE5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (UART.h)(0x5FA036A1)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC83AE4)
+I (ST7735.h)(0x5F4DB19B)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+F (.\Menu.c)(0x5F99CD12)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\menu.o --omf_browse .\objects\menu.crf --depend .\objects\menu.d)
+I (Menu.h)(0x5FC54DE5)
+I (Switch.h)(0x5FC54F17)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (ST7735.h)(0x5F4DB19B)
+F (.\EV3479.c)(0x5FC9366D)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\ev3479.o --omf_browse .\objects\ev3479.crf --depend .\objects\ev3479.d)
+I (EV3479.h)(0x5FC9210B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (I2C.h)(0x5FC2B48E)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+I (ST7735.h)(0x5F4DB19B)
+F (.\UART.h)(0x5FA036A1)()
+F (.\UART.c)(0x5FC4A76A)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (UART.h)(0x5FA036A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC83ADC)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+F (.\I2C.h)(0x5FC2B48E)()
+F (.\I2C.c)(0x5FC2E2CF)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (I2C.h)(0x5FC2B48E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+F (.\Switch.c)(0x5FCDCDC7)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\switch.o --omf_browse .\objects\switch.crf --depend .\objects\switch.d)
+I (Switch.h)(0x5FC54F17)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+F (.\Switch.h)(0x5FC54F17)()
+F (.\PortBHandler.c)(0x5FC54F1F)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\portbhandler.o --omf_browse .\objects\portbhandler.crf --depend .\objects\portbhandler.d)
+I (tm4c123gh6pm.h)(0x5F4DB19C)
+I (Switch.h)(0x5FC54F17)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (PEC16.h)(0x5FC54F17)
+F (.\FixedMath.c)(0x5FCE8360)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Jason Fry\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="531" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\fixedmath.o --omf_browse .\objects\fixedmath.crf --depend .\objects\fixedmath.d)
+I (FixedMath.h)(0x5FC943E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC83ADC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC83ADC)
+F (.\FixedMath.h)(0x5FC943E6)()

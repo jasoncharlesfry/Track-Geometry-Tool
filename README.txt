@@ -1,0 +1,5 @@
+This is a prototype for a tool to measure the gauge and cross-level of railroad track. The gauge is to be measured with a linear encoded. In the prototype the linear encoder is simulated with a cheaper rotary encoder. The cross level is measured with an accelerometer.
+
+The operator will insert a USB flash drive and turn on the system with the power switch. Once the display shows that the system is initialized, the operator should position the tool to take the desired measurement and press the center button to take the measurement. The gauge, angle, and cross-level will be displayed on the screen and written to a text file named DATA.txt each time the center button is pressed. When the operator is finished taking measurements, they must press the left button to save the file before turning off the system and removing the disk.
+
+The code was written with the ARM Keil IDE and the schematic and board were designed with PCB Artist.
